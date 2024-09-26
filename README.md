@@ -12,17 +12,17 @@ This project is a School Management Application built using Next.js. It provides
 
 ### Tech Stack
 
-# Frontend: Next.js (React framework)
+- Frontend: Next.js (React framework)
 
-# Backend: API routes (integrated into Next.js)
+- Backend: API routes (integrated into Next.js)
 
-# Database: Prisma
+- Database: Prisma
 
-# Authentication: NextAuth.js
+- Authentication: NextAuth.js
 
-# Styling: Tailwind CSS
+- Styling: Tailwind CSS
 
-# State Management: Context API
+- State Management: Context API
 
 ## Getting Started
 
@@ -52,19 +52,19 @@ NEXTAUTH_SECRET=your_secret_key
 ### Project Structure
 
 .
-├── src/ # Source code directory
-│ ├── app/ # Next.js app directory
-│ │ ├── page.tsx # Main page component
-│ │ └── ... # Additional components and pages
-├── prisma/ # Database schema (if using Prisma)
-├── public/ # Public assets (images, icons, etc.)
-├── styles/ # Global styles
-├── components/ # Reusable components (Header, Sidebar, etc.)
-├── lib/ # Utility functions and helpers
-├── .env.local # Environment variables
-├── next.config.js # Next.js configuration
-├── package.json # Project metadata and scripts
-└── README.md # Project documentation
+├── src/
+│ ├── app/
+│ │ ├── page.tsx
+│ │ └── ...
+├── prisma/
+├── public/
+├── styles/
+├── components/
+├── lib/
+├── .env.local
+├── next.config.js
+├── package.json
+└── README.md
 
 License
 This project is open source and available under the MIT License.
